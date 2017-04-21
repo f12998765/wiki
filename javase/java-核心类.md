@@ -68,7 +68,10 @@ if("Java".equals(s1)   //常用
 |public String trim()|去掉头部和尾部的空格|
 |public static String valueOf( )|将基本类型、字符数组、对象转换为一个字符串|
 
-## java.lang.StringBuffer和java.lang.StringBuilder
+## StringBuffer和StringBuilder
+
+java.lang.StringBuffer和java.lang.StringBuilder
+
 String 对象不可变，添加或插入字符都会创建一个新的对象。
 
 ### StringBuffer和StringBuilder的选择

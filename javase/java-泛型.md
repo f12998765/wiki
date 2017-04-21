@@ -373,9 +373,19 @@ public static <T> T get( STring s){};
 ```
 泛型类的所有静态变量是共享的。
 
+## Java 泛型经常使用的符号的含义
+
+- T -- Type / java 类
+- K -- Key / 键
+- V -- Value / 值
+- E -- Element / 集合中的元素
+- ? -- 通配符
+- S、U、V -- 2nd、3rd、4th types
+
 ## 参考
 
 - [Java泛型通配符extends与super](http://www.cnblogs.com/sharewind/archive/2012/11/26/2788698.html)
 - [Java泛型中extends和super的理解](http://www.hollischuang.com/archives/255)
 - [Java的类型擦除](http://www.hollischuang.com/archives/226)
 - [java泛型（二）、泛型的内部原理：类型擦除以及类型擦除带来的问题](http://blog.csdn.net/lonelyroamer/article/details/7868820)
+- [Java泛型中K T V E ？ object等的含义](www.hollischuang.com/archives/252)

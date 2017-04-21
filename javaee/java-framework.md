@@ -1,15 +1,9 @@
-# java Framework
+# Java EE 框架导航
 
-- Lombok
-    - 使用注解消除冗长代码
-    - [https://projectlombok.org/](https://projectlombok.org/)
-    - [Github](https://github.com/rzwitserloot/lombok)
+## 需要学习的
 - Google Guava
     - Google 开发工具包
     - [Github](https://github.com/google/guava)
-- Logback
-    - 日志工具
-    - [http://logback.qos.ch/](http://logback.qos.ch/)
 - OkHttp
     -  HTTP client
     - [http://square.github.io/okhttp/](http://square.github.io/okhttp/)
@@ -25,11 +19,12 @@
     - Java REST<**???**>  服务器栈
     - [http://www.dropwizard.io/](http://www.dropwizard.io/)
     - [Gtihub](https://github.com/dropwizard/dropwizard)
-- JWT
-    - [https://jwt.io/](https://jwt.io/)
-    - [JJWT](https://github.com/jwtk/jjwt)
+- Lombok
+    - 使用注解消除冗长代码
+    - [https://projectlombok.org/](https://projectlombok.org/)
+    - [Github](https://github.com/rzwitserloot/lombok)
 
-##了解一些的Java框架和工具
+## 了解一些的
 - [Spring](https://spring.io/)
 - Mybatis
     - [Github](https://github.com/mybatis/)
@@ -46,8 +41,13 @@
     - [Maven](http://mvnrepository.com/search?q=Jackson)
 - SWAGGER
     - [http://swagger.io/](http://swagger.io/)
-
-##一些不会用的Java框架和工具
+- JWT
+    - [https://jwt.io/](https://jwt.io/)
+    - [JJWT](https://github.com/jwtk/jjwt)
+- Logback
+    - 日志工具
+    - [http://logback.qos.ch/](http://logback.qos.ch/)
+## 一些不会用的
 - [Groovy](http://www.groovy-lang.org/)
     - [Github](https://github.com/apache/groovy)
 - [Gradle](https://gradle.org/) -- 项目构建
