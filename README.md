@@ -3,6 +3,7 @@
 ## Java SE
 ### Java SE 入门
 - [Java 概述](javase/Java-概述.md)
+- [面向对象编程概念](javase/面向对象编程概念.md)
 - [Java 语法基础](javase/Java-语法基础.md)
 - [Java 数组和arrays类](javase/Java-数组和arrays类.md)
 - [Java 类与对象](javase/Java-类与对象.md)
@@ -18,7 +19,7 @@
 - [Java 注解](javase/Java-注解.md)
 - [Java 反射](javase/Java-反射.md)
 - [Java 泛型](javase/Java-泛型.md)
-- [java 断言](javase/java-断言.md)
+- [Java 断言](javase/Java-断言.md)
 - [Java 时间](javase/Java-时间.md)
 - [Java 线程](javase/Java-线程.md)
 - [Java io/nio](javase/Java-io.md)
@@ -27,6 +28,9 @@
 ### Java SE 深入
 - [Java 基础知识](javase/Java-基础知识.md)
 - [String 相关](javase/String 相关.md)
+
+
+### Java SE 8 
 
 ## Java EE
 
@@ -41,6 +45,8 @@
 - [swagger](javaee/swagger.md)
 - [Mybatis 笔记](javaee/Mybatis 笔记.md)
 - [springmvc encoding](javaee/springmvc-encoding.md)
+
+## 设计模式
 
 ## CS 基础
 
