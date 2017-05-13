@@ -46,6 +46,9 @@
 - [Mybatis 笔记](javaee/Mybatis 笔记.md)
 - [springmvc encoding](javaee/springmvc-encoding.md)
 
+## 漏洞分析
+- [S2-045](vul/S2-045.md)
+ 
 ## 设计模式
 
 ## CS 基础
