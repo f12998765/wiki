@@ -12,7 +12,7 @@
 
 定义一个泛型类
 
-> 在类名后使用 <> 定义一个参数化类型。 
+> 在类名后使用 <> 定义一个参数化类型。
 
 ```java
 public class App<T> {
@@ -33,7 +33,7 @@ public class App<T> {
 ```java
 public class Main{
     public static void main(String[] args) {
-        
+
         //指定类型为 String
         App<String> app = new App<>();
         app.setX("Hello World!");
@@ -91,7 +91,7 @@ public class App3 extends App2<String> {
 }
 ```
 
-> 参数化类型的名称可以自定义，常用的有KTVE，具体含义看 。 
+> 参数化类型的名称可以自定义，常用的有KTVE，具体含义看 。
 
 ### 泛型接口
 
@@ -126,7 +126,7 @@ public  class AppImpl implements IApp<String> {
 
 ### 泛型方法
 
-> 泛型方法不只可以泛型类、泛型接口中定义，**普通类**中也可以
+> 泛型方法不只可以泛型类、泛型接口中定义，**普通类** 中也可以
 
 定义一个泛型方法
 
@@ -209,6 +209,13 @@ public class IApp1<T> extends IApp0<T>{
 }
 ```
 
+### 泛型接口和泛型抽象类
+
+- 泛型接口可以做基础的容器接口，定义基本的操作。
+- 泛型抽象类实现泛型接口。
+- 具体接口继承泛型接口，并定义自己的方法。
+- 具体类继承泛型抽象类，并实现具体接口。
+
 ## 通配符和上下界
 
 ### 通配符 ?
@@ -250,7 +257,7 @@ public class Main {
     static class A{};
     static class B extends A{};
     static class C extends B{};
-    
+
     public static void main(String[] args) {
         List<? extends A> list = new ArrayList<B>();
         //编译器报错
@@ -265,7 +272,7 @@ public class Main {
 ```
 list 指向的是 A 或者 A 的子类型的ArrayList 对象
 
-list 不能添加非空元素，原因是 **编译器无法确定List所持有的类型** 
+list 不能添加非空元素，原因是 **编译器无法确定List所持有的类型**
 
 但可以取出时，值得类型是 A ，因为多态，父类引用指向子类实现。
 
@@ -290,7 +297,7 @@ List< ? super B> list 可以指向是 B 或 B 的父类型的 ArrayList 对象
 
 但是可以添加的元素类型应该是 B 或 B 的子类型，可以添加原因也是多态
 
-从list中取值，返回的是 Object 
+从list中取值，返回的是 Object
 
 ## PECS原则
 
@@ -317,7 +324,7 @@ List< ? super B> list 可以指向是 B 或 B 的父类型的 ArrayList 对象
 
 ### [Type Erasure](http://docs.oracle.com/javase/tutorial/java/generics/erasure.html)
 
-Generics were introduced to the Java language to provide tighter type checks at compile time and to support generic programming. 
+Generics were introduced to the Java language to provide tighter type checks at compile time and to support generic programming.
 
 Java 引入泛型，可以在编译时提供更严格的类型检查，并且支持泛型编程。
 

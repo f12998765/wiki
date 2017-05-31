@@ -1,4 +1,4 @@
-# CORS
+# 了解 CORS 
 
 跨域资源共享 ，Cross-Origin Resource Sharing ，简称 CORS。
 
@@ -122,7 +122,7 @@ xhr.withCredentials = true;
 
 不能设置为
 ```
-Access-Control-Allow-Origin: * 
+Access-Control-Allow-Origin: *
 ```
 ### Access-Control-Allow-Methods
 
@@ -158,7 +158,7 @@ Access-Control-Allow-Origin: *
 
 更多参数，请看 [http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html#CORS_Filter](http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html#CORS_Filter)
 
-### 在 nginx 中设置 CORS 
+### 在 nginx 中设置 CORS
 
 请直接参阅，[https://enable-cors.org/server_nginx.html](https://enable-cors.org/server_nginx.html)
 
@@ -215,4 +215,3 @@ public class SimpleCORSFilter implements Filter {
 - [https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)。
 - [跨域资源共享 CORS 详解](http://www.ruanyifeng.com/blog/2016/04/cors.html)
 - [https://www.w3.org/TR/cors/](https://www.w3.org/TR/cors/)
-

@@ -116,13 +116,13 @@ Maven Repository：[Maven Repository](https://mvnrepository.com/)
 
 ### 安装配置
 1. 解压到 `C:\Program Files\Apache Software Foundation` 下，重命名为 Maven
-2. 配置环境变量 
+2. 配置环境变量
     - MAVEN_HOME
     - Path
         - %MAVEN_HOME%\bin
 3. 修改配置文件 `conf/setting.xml`
 
-设置本地仓库 
+设置本地仓库
 ```xml
 <localRepository>d:/m2/repository</localRepository>
 ```
@@ -215,6 +215,3 @@ docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -d -p 3306:3306 mysql
 grant all privileges on *.* to 'username' @'%' identified by 'password';
 flush privileges; # 刷新
 ```
-
-
-

@@ -1,4 +1,4 @@
-# Swagger 
+# Swagger 学习笔记
 
 官网：[http://swagger.io/](http://swagger.io/)
 
@@ -28,7 +28,7 @@ Swagger Editor 是一个可视化的 API 编辑器，能根据 Swagger 规范实
 ![](https://ox.xizero.com/uploads/2017/02/swagger_editor.png)
 
 ### 安装
- 
+
 Swagger 提供了在线版的 Swagger Editor ：[http://editor.swagger.io/](http://editor.swagger.io/#/)
 
 也可以在 Github 上下载项目，在本地服务器（Nginx 或 npm http-server）上运行。
@@ -111,12 +111,12 @@ Swagger Codegen 是一个代码生成工具，根据符合 Swagger 规范的 API
 
 可以下载项目，自己编译运行，也可以直接下载 jar 文件执行。
 
-- 克隆编译，生成的 `swagger-codegen-cli.jar` 文件在 `modules/swagger-codegen-cli/target/` 下 
+- 克隆编译，生成的 `swagger-codegen-cli.jar` 文件在 `modules/swagger-codegen-cli/target/` 下
 
 ```bash
 git clone https://github.com/swagger-api/swagger-codegen cd swagger
- -codegen 
-mvn clean package 
+ -codegen
+mvn clean package
 ```
 
 - 直接下载
@@ -153,7 +153,7 @@ mvn clean package
     - MetaGenerator. Generator for creating a new template set and configuration for Co the language you specify, and includes default templates to include.
     - 用于自定义模板，暂不了解
 
-#### `config-help` 
+#### `config-help`
 
 查看 `config-help` 命令的使用：
 ```bash
