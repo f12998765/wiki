@@ -14,3 +14,6 @@
 
 ## 删除 Chrome 浏览器同步
 地址：[https://www.google.com/settings/chrome/sync](https://www.google.com/settings/chrome/sync)
+
+
+## 删除 Telegram 的活动设备

@@ -33,7 +33,7 @@
 - [Swagger 学习笔记](javaee/Swagger-学习笔记.md)
 - [springmvc encoding](javaee/springmvc-encoding.md)
 
-## 漏洞分析
+## 漏洞
 - [S2-045](vul/S2-045.md)
 
 
