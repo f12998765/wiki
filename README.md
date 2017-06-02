@@ -42,6 +42,7 @@
 - [软件收集](keep/软件收集.md)
 - [网址收集](keep/网址收集.md)
 - [软件扩展推荐](keep/软件扩展推荐.md)
+- [deepin 装机手册](keep/deepin-装机手册.md)
 - [win10 系统重装手册](keep/win10-系统重装手册.md)
 - [win10 系统恢复手册](keep/win10-系统恢复手册.md)
 - [Java 开发环境搭建手册](keep/Java-开发环境搭建手册.md)
