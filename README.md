@@ -54,10 +54,12 @@
 - [了解 CORS](diary/了解-CORS.md)
 - [搭建图床](diary/ImageHosting.md)
 
-## 配置
+## 笔记
 - [Centos 配置](note/Centos-配置.md)
 - [Git 常用命令](note/Git-常用命令.md)
 - [Github Pages 配置 https](note/Github-Pages-配置-https.md)
+- [正则表达式](note/正则表达式.md)
+
 
 ## 翻译
 
