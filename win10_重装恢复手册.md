@@ -1,4 +1,17 @@
-# win10 系统恢复手册
+# win10 重装恢复手册
+
+## 删除令牌会话
+- 删除 OneDriver 上的电脑
+    - [https://onedrive.live.com](https://onedrive.live.com)
+- 清除同步隐私
+    - [https://account.microsoft.com/privacy#/](https://account.microsoft.com/privacy#/)
+- 删除应用商店设备
+    - [https://account.microsoft.com/devices/store](https://account.microsoft.com/devices/store)
+- 删除 Github 上的 SSH 密钥
+    - [https://github.com/settings/keys](https://github.com/settings/keys)
+- 删除 Chrome 浏览器同步
+    - [https://www.google.com/settings/chrome/sync](https://www.google.com/settings/chrome/sync)
+- 删除 Telegram 的活动设备
 
 ## 系统安装
 1. 断网安装，创建本地英文账户
