@@ -31,10 +31,9 @@
 
 ## 连接网络，配置系统
 1. Flower Password  - - [https://flowerpassword.com/](https://flowerpassword.com/) 
-2. YoMail - - [http://www.yomail.com/](http://www.yomail.com/) 
-3. 登陆微软账号，激活系统
-4. Dism++ - - [https://www.chuyu.me/](https://www.chuyu.me/) 
-5. 更新系统
+2. 登陆微软账号，激活系统
+3. Dism++ - - [https://www.chuyu.me/](https://www.chuyu.me/) 
+4. 更新系统
 
 ## 必备软件
 1. 7-zip  - - [http://www.7-zip.org/](http://www.7-zip.org/) 
