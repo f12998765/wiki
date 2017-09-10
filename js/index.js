@@ -1,6 +1,6 @@
 url = window.location.search.substr(1)
 
-if (url == null || url.substr(url.length – 2)!="md")
+if (url == null)
   url = "README.md"
 
 var rendererMD = new marked.Renderer();
@@ -23,7 +23,7 @@ marked.setOptions({
 fetch("./" + url)
   .then(function(response) {
     if (response.status != 200)
-      document.getElementById('con').innerHTML = marked("# 404")
+      window.location.href='./'
     else {
       return response.text()
     }
