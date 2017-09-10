@@ -1,5 +1,5 @@
 url = window.location.search.substr(1)
-
+console.log(url)
 if (url == null)
   url = "README.md"
 
