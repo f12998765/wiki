@@ -1,6 +1,6 @@
 url = window.location.search.substr(1)
 
-if (url == null || url.indexOf("/"))
+if (url == null || url.charAt(url.length – 1)=="/")
   url = "README.md"
 
 var rendererMD = new marked.Renderer();
