@@ -2,7 +2,7 @@
 
 ### 环境配置
 
-- [win10_重装恢复手册](?win10-重装恢复手册.md)
+- [win10 重装恢复手册](?win10-重装恢复手册.md)
 - [Centos 配置](?Centos-配置.md)
 - [deepin 装机手册](?deepin-装机手册.md)  
 - [Java 开发环境搭建手册](?Java-开发环境搭建手册.md)  
