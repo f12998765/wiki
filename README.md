@@ -31,7 +31,7 @@
 
 - [win10 重装恢复手册](?conf/win10-重装恢复手册.md)
 - [Centos 配置](?conf/Centos-配置.md)
-- [deepin 装机手册](?conf/deepin-装机手册.md)  
+- [deepin](?conf/deepin.md)  
 - [Java 开发环境搭建手册](?conf/Java-开发环境搭建手册.md)  
 
 ### Java 笔记
