@@ -48,7 +48,7 @@ logback分为三个模块
 
 ## logback.xml 配置
 
-![](https://ox.xizero.com/uploads/2017/02/Logback.xml.svg)
+![](../.img/Logback.xml.svg)
 
 ## 使用
 ###  1.pox.xml 添加依赖 

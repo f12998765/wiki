@@ -2,7 +2,7 @@
 
 ## UML
 **图片转载自[兰亭风雨](http://blog.csdn.net/ns_code/article/details/35564663)**
-![](https://ox.xizero.com/uploads/2017/03/collection.jpg)
+![](../.img/collection.jpg)
 
 `Collection`：集合层次结构的根接口,主要的子接口是`List`、`Set`。
 
@@ -168,10 +168,10 @@ Hashtable
 
 ### Iterator 和 ListIteratocr
 [https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html)
-![](https://ox.xizero.com/uploads/2017/03/Iterator.png)
+![](../.img/Iterator.png)
 
 [https://docs.oracle.com/javase/8/docs/api/java/util/ListIterator.html](https://docs.oracle.com/javase/8/docs/api/java/util/ListIterator.html)
-![](https://ox.xizero.com/uploads/2017/03/ListIterator.png)
+![](../.img/ListIterator.png)
 
 ## 备注
 关于对象的比较和排序，请看另一篇。
