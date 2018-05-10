@@ -50,6 +50,8 @@ logback分为三个模块
 
 ![](../.img/Logback.xml.svg)
 
+xmind 文件：[Logback.xml.xmind](https://cdn.rawgit.com/f12998765/wiki/master/.resources/logback/Logback.xml.xmind)
+
 ## 使用
 ###  1.pox.xml 添加依赖 
 仓库地址：[https://mvnrepository.com/artifact/ch.qos.logback/logback-classic](https://mvnrepository.com/artifact/ch.qos.logback/logback-classic)
@@ -69,7 +71,8 @@ logback分为三个模块
 
 ```
 ### 2.src/main/resource添加logback.xml
-参考：[logback.xml](https://gist.githubusercontent.com/f12998765/28613af391c72c8c8ba47a0cef3f8250/raw/d1af5d48490308dd80645f9721e1af2b7cd6f69f/logback.xml)
+参考配置文件：[logback.xml](https://cdn.rawgit.com/f12998765/wiki/master/.resources/logback/logback.xml)
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
