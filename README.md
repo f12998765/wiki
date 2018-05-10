@@ -54,3 +54,8 @@
 
 - [Git 常用命令](?hard-skills/Git-常用命令.md)     
 - [正则表达式](?hard-skills/正则表达式.md)
+
+### 数学笔记
+
+- [Master theorem proof](?math/Master theorem proof.md)
+- [递归方程求解](?math/递归方程求解.md)
