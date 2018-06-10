@@ -2,11 +2,11 @@
 
 ### 收集日常
 
-- 网址索引
+- 网址
 
     [技术](https://dynalist.io/d/FKSHKYjn62yM5sMS5_IeiyqF#z=XXrhJliQk3DyHTdRnz5FNAq8)  /  [生活](https://dynalist.io/d/FKSHKYjn62yM5sMS5_IeiyqF#z=eTD92D6za2ItaF1wbwTc8eqR)  /  [他言](https://dynalist.io/d/FKSHKYjn62yM5sMS5_IeiyqF#z=jiNtA-SJ0l9_xPYbjOw2Nmj6)  /  [工具](https://dynalist.io/d/FKSHKYjn62yM5sMS5_IeiyqF#z=K5YSptvfg1WgCsi_iAnDJBUC)
 
-- 软件收集
+- 软件
 
     [软件](https://dynalist.io/d/8azEbSlaQ8kc-P4I8FzpkYRI)  /   [扩展](https://dynalist.io/d/fjmwJujCwx51ycAz6tHt0-7v)
 
@@ -15,14 +15,14 @@
 - [总是放弃的我](?diary/总是放弃的我.md)
 - [系统设计](?diary/系统设计.md)
 
-### 随笔记录
+### 随笔
 
 - [Github Pages 配置 https](?note/Github-Pages-配置-https.md)
 - [自建图床](?note/自建图床.md)
 - [了解 CORS](?note/了解-CORS.md)
 - [S2-045](?note/S2-045.md)
 
-### 垃圾翻译
+### 翻译
 
 - [OpenAPI 规范](?translation/OpenAPISpecificationZh.md)
 
@@ -57,7 +57,7 @@
 
 ### 数学笔记
 
-- [Master theorem proof](?math/Master theorem proof.md)
+- [Master theorem proof](?math/Master_theorem_proof.md)
 - [递归方程求解](?math/递归方程求解.md)
 
 
