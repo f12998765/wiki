@@ -4,11 +4,11 @@
 
 - 网址索引
 
-    [技术](?url/技术.md)  /  [生活](?url/生活.md)  /  [他言](?url/他言.md)  /  [工具](?url/工具.md)
+    [技术](https://dynalist.io/d/FKSHKYjn62yM5sMS5_IeiyqF#z=XXrhJliQk3DyHTdRnz5FNAq8)  /  [生活](https://dynalist.io/d/FKSHKYjn62yM5sMS5_IeiyqF#z=eTD92D6za2ItaF1wbwTc8eqR)  /  [他言](https://dynalist.io/d/FKSHKYjn62yM5sMS5_IeiyqF#z=jiNtA-SJ0l9_xPYbjOw2Nmj6)  /  [工具](https://dynalist.io/d/FKSHKYjn62yM5sMS5_IeiyqF#z=K5YSptvfg1WgCsi_iAnDJBUC)
 
 - 软件收集
 
-    [软件](?software/软件收集.md)  /   [扩展](?software/软件扩展.md)
+    [软件](https://dynalist.io/d/8azEbSlaQ8kc-P4I8FzpkYRI)  /   [扩展](https://dynalist.io/d/fjmwJujCwx51ycAz6tHt0-7v)
 
 ### 胡言乱语
 
