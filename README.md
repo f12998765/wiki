@@ -1,6 +1,6 @@
 # README
 
-### 收集日常
+### 收集
 
 - 网址
 
@@ -10,24 +10,7 @@
 
     [软件](https://dynalist.io/d/8azEbSlaQ8kc-P4I8FzpkYRI)  /   [扩展](https://dynalist.io/d/fjmwJujCwx51ycAz6tHt0-7v)
 
-### 胡言乱语
-
-- [总是放弃的我](?diary/总是放弃的我.md)
-- [系统设计](?diary/系统设计.md)
-
-### 随笔
-
-- [Github Pages 配置 https](?note/Github-Pages-配置-https.md)
-- [自建图床](?note/自建图床.md)
-- [了解 CORS](?note/了解-CORS.md)
-- [S2-045](?note/S2-045.md)
-
-### 翻译
-
-- [OpenAPI 规范](?translation/OpenAPISpecificationZh.md)
-
-
-### 环境配置
+### 环境
 
 - [win10 重装恢复手册](?conf/win10-重装恢复手册.md)
 - [Centos 配置](?conf/Centos-配置.md)
@@ -60,6 +43,18 @@
 - [Master theorem proof](?math/Master_theorem_proof.md)
 - [递归方程求解](?math/递归方程求解.md)
 
+### 日志
+
+- [总是放弃的我](?diary/总是放弃的我.md)
+- [系统设计](?diary/系统设计.md)
+- [Github Pages 配置 https](?note/Github-Pages-配置-https.md)
+- [自建图床](?note/自建图床.md)
+- [了解 CORS](?note/了解-CORS.md)
+- [S2-045](?note/S2-045.md)
+
+### 翻译
+
+- [OpenAPI 规范](?translation/OpenAPISpecificationZh.md)
 
 ### 2018
 
