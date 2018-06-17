@@ -152,10 +152,10 @@ linux 解压到 `/opt` ,运行 `./bin/idea.sh`
 IDEA新建MAVEN项目卡住显示 : "Generating Project in Batch mode"
 
 1. 打开 [http://repo.maven.apache.org/maven2/](http://repo.maven.apache.org/maven2/)，找到 `archetype-catalog.xml` ,右键保存
-2. 或者点击 -->  [http://d.xizero.com/archetype-catalog.xml](http://d.xizero.com/archetype-catalog.xml)
-3. 放到 "\.m2\repository\org\apache\maven\archetype\archetype-catalog\2.4" 下
-4. 在 Idea  `Settings `> `Maven` > `Runner` > `VM Options` 中添加 `-DarchetypeCatalog=internal`
-5. PS：注意右上角的灰字：for default project，而不是for current project
+2. 放到 "\.m2\repository\org\apache\maven\archetype\archetype-catalog\2.4" 下
+3. 在 Idea  `Settings `> `Maven` > `Runner` > `VM Options` 中添加 `-DarchetypeCatalog=internal`
+
+> PS：注意右上角的灰字：for default project，而不是for current project
 
 ## DataGrip
 
@@ -171,21 +171,10 @@ linux 解压到 `/opt` ,运行 `./bin/DataGrip.sh`
 
 ## Docker
 
-### 安装
+获取 Docker 社区版: [https://store.docker.com/search?type=edition&offering=community](https://store.docker.com/search?type=edition&offering=community)
 
-使用 [daocloud.io](https://get.daocloud.io) 的脚本安装
+[Docker 中国官方镜像加速](https://www.docker-cn.com/registry-mirror)
 
-```bash
-curl -sSL https://get.daocloud.io/docker | sh
-```
-### 配置 ustc mirror
-
-[ustc docker 镜像使用帮助](https://lug.ustc.edu.cn/wiki/mirrors/help/dockerc)
-
-```bash
-$ sudo echo "DOCKER_OPTS=\"--registry-mirror=https://docker.mirrors.ustc.edu.cn\"" >> /etc/default/docker
-$ sudo service docker restart
-```
 
 ## Mysql
 
