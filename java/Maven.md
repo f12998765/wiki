@@ -1,6 +1,4 @@
-# 构建工具
-
-## Maven
+# Maven
 
 settings 文件配置
 
@@ -16,7 +14,7 @@ https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 
 
 
-pom.xml 
+pom.xml
 
 https://maven.apache.org/pom.html
 
@@ -31,6 +29,3 @@ https://maven.apache.org/plugins/
 Maven Archetype Plugin
 
 http://maven.apache.org/archetype/maven-archetype-plugin/
-
-
-
