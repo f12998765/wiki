@@ -5,6 +5,7 @@
 git config [--global] user.name "[name]"
 git config [--global] user.email "[email]"
 git config --global color.ui true
+git config list
 ```
 ## 生成SSH Key
 ```bash
@@ -14,12 +15,32 @@ cd ~/.ssh
 ssh-keygen -t rsa -C "your_email@example.com"
 # 测试
 ssh -T git@github.com
-ssh -T git@git.coding.net
 ```
 ## HTTPS 方式记住密码
 ```bash
 git config credential.helper store
 ```
+
+## 设置不同的远程仓库
+在 .ssh 文件夹下生成不同的 SSH key ，创建 `config` 文件
+
+```
+# gitlab
+Host gitlab.com
+    User git
+    HostName gitlab.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa_gitlab
+
+# github
+Host github.com
+    User git
+    HostName github.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa_github
+```
+
+> 注意设置邮箱和用户名
 
 ## 初始化仓库
 ```bash
