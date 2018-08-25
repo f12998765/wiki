@@ -1,6 +1,6 @@
 # Spring cache 中配置 redis 使用 gson 序列化值
 
-![](../.img/spring-cache-redis.png)
+![](https://cdn.rawgit.com/f12998765/wiki/master/.img/spring-cache-redis.png)
 
 需要编写一个 GsonRedisSerialzer 进行适配
 
@@ -14,7 +14,7 @@
 
 但是不管是哪两种，使用 gson.fromJson 的时候，可以从配置中看到，参数 type 都是 Object.class ,当遇到复杂类型的时候都会报类型转换异常,因为反序列化的时候找不到正确的类型。
 
-![](../.img/spring-cache-redis-2.png)
+![](https://cdn.rawgit.com/f12998765/wiki/master/.img/spring-cache-redis-2.png)
 
 考虑 **使用包装类保存类型**，将类型记录到 redis 的 json 中。
 

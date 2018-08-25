@@ -48,7 +48,7 @@ logback分为三个模块
 
 ## logback.xml 配置
 
-![](../.img/Logback.xml.svg)
+![](https://cdn.rawgit.com/f12998765/wiki/master/.img/Logback.xml.svg)
 
 xmind 文件：[Logback.xml.xmind](https://cdn.rawgit.com/f12998765/wiki/master/.resources/logback/Logback.xml.xmind)
 

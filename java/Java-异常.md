@@ -9,7 +9,7 @@ Throwable 是所有异常的基类。
 Error 异常不会检查捕获，一旦产生，程序直接终止
 Exception 是通常抛出的异常。
 
-![](../.img/_3_.jpeg)
+![](https://cdn.rawgit.com/f12998765/wiki/master/.img/_3_.jpeg)
 
 
 ## 捕获异常

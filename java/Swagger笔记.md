@@ -25,7 +25,7 @@ Swagger 官方提供了三个工具，分别用于 Design、Build和Document：
 
 Swagger Editor 是一个可视化的 API 编辑器，能根据 Swagger 规范实时校验文档。
 
-![](../.img/swagger_editor.png)
+![](https://cdn.rawgit.com/f12998765/wiki/master/.img/swagger_editor.png)
 
 ### 安装
 
@@ -342,7 +342,7 @@ Swagger UI  将 API 文档在浏览器中可视化。
 
 官方的 Demo ，地址：[http://petstore.swagger.io/](http://petstore.swagger.io/)。截图：
 
-![](../.img/swagger_ui.png)
+![](https://cdn.rawgit.com/f12998765/wiki/master/.img/swagger_ui.png)
 
 ### 安装
 
