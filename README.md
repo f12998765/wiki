@@ -55,6 +55,7 @@
 - [系统设计](?diary/系统设计.md)
 - [Github Pages 配置 https](?note/Github-Pages-配置-https.md)
 - [了解 CORS](?note/了解-CORS.md)
+- [Spring cache 中配置 redis 使用 gson 序列化值](?note/Srping-cache-redis-gson.md)
 
 ### 翻译
 
