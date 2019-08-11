@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+        <!-- 项目名称 -->
+        <contextName>Test contextName</contextName>
+
+        <!-- 变量 -->
+        <property name="log" value="./log"/>
+
+        <!-- 时间戳 -->
+        <timestamp key="bySecond" datePattern="yyyyMMdd" timeReference="contextBirth"/>
+
+        <!-- 在控制台打印日志 -->
+        <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+
+                <!-- 级别过滤器 -->
+                <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+                        <level>DEBUG</level>
+                        <onMatch>ACCEPT</onMatch>
+                        <onMismatch>NEUTRAL</onMismatch>
+                </filter>
+
+                <!-- 临界值过滤器 -->
+                <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+                        <level>INFO</level>
+                        <onMatch>ACCEPT</onMatch>
+                        <onMismatch>DENY</onMismatch>
+                </filter>
+
+
+                <!-- 求值过滤器 -->
+                <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+                        <evaluator>
+                                <matcher>
+                                        <name>num</name>
+                                        <regex>\ba\w*\b</regex>
+                                </matcher>
+                                <expression> num.matches(formattedMessage) </expression>
+                        </evaluator>
+                        <onMatch>ACCEPT</onMatch>
+                        <onMismatch>DENY</onMismatch>
+                </filter>
+
+                <encoder>
+                        <!-- pattern模式 %d时间 %thread 线程名 %level行为级别 %logger logger名称 %method 方法名称 %message 调用方法的入参消息 -->
+                        <pattern>%-4d [%thread] %highlight%-5level %cyan%logger.%-10method - %message%n</pattern>
+                </encoder>
+        </appender>
+
+        <!-- FileAppender 输出到文件 -->
+        <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+
+                <file>${log}/log-${bySecond}.log</file>
+
+                <encoder>
+                        <pattern>%date %level [%thread] %logger{30} [%file:%line] %msg%n</pattern>
+                </encoder>
+        </appender>
+
+
+        <!-- 滚动记录日志文件 -->
+        <!-- 按时间滚动 -->
+        <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <file>${log}/test_log.log</file>
+                <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+                        <!-- daily rollover -->
+                        <fileNamePattern>${log}/log.%d{yyyy-MM-dd}.log</fileNamePattern>
+
+                        <!-- keep 30 days' worth of history capped at 3GB total size -->
+                        <maxHistory>30</maxHistory>
+                        <totalSizeCap>3GB</totalSizeCap>
+                </rollingPolicy>
+
+                <encoder>
+                        <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+                </encoder>
+        </appender>
+
+        <!-- Size and time based rolling policy -->
+        <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <file>${log}/test_log.log</file>
+                <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+                        <!-- rollover daily -->
+                        <fileNamePattern>${log}/log.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+                        <!-- each file should be at most 100MB, keep 60 days worth of history, but at most 20GB -->
+                        <maxFileSize>100MB</maxFileSize>    
+                        <maxHistory>60</maxHistory>
+                        <totalSizeCap>20GB</totalSizeCap>
+                </rollingPolicy>
+                <encoder>
+                        <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+                </encoder>
+        </appender>
+
+        <!-- 按窗口滚动 -->
+        <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <file>${log}/test_log.log</file>
+
+                <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+                        <fileNamePattern>${log}/log.%i.log.zip</fileNamePattern>
+                        <minIndex>1</minIndex>
+                        <maxIndex>3</maxIndex>
+                </rollingPolicy>
+
+                <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+                        <maxFileSize>5MB</maxFileSize>
+                </triggeringPolicy>
+
+                <encoder>
+                        <pattern>%-4relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+                </encoder>
+        </appender>
+
+
+        <!-- logger -->
+        <logger name="log.test" level="INFO" additivity="false">
+                <appender-ref ref="STDOUT"/>
+                <appender-ref ref="ROLLINGFILE"/>
+                <appender-ref ref="HTMLFILE"/>
+        </logger>
+
+        <logger name="log.test.Tesg" level="debug" additivity="false">
+                <appender-ref ref="STDOUT"/>
+                <appender-ref ref="ROLLINGFILE"/>
+                <appender-ref ref="HTMLFILE"/>
+        </logger>
+
+        <root level="debug">
+                <appender-ref ref="STDOUT"/>
+        </root>
+
+</configuration>
