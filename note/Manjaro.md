@@ -203,3 +203,51 @@ sudo gpasswd -a ${USER} docker
 ```
 
 镜像 https://lug.ustc.edu.cn/wiki/mirrors/help/docker
+
+#### Idea
+
+```shell
+yay -S intellij-idea-community-edition
+```
+
+#### Maven 
+
+```shell
+yay -S maven
+
+# 复制配置文件
+cp /opt/maven/conf/settings.xml ~/.m2/
+```
+
+镜像
+
+```xml
+<mirror>
+    <id>aliyunmaven</id>
+    <mirrorOf>*</mirrorOf>
+    <name>阿里云公共仓库</name>
+    <url>https://maven.aliyun.com/repository/public</url>
+</mirror>
+```
+
+#### Gradle
+
+```shell
+yay -S gradle
+```
+
+镜像 `build.gradle`
+
+```groovy
+allprojects {
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        mavenLocal()
+        mavenCentral()
+    }
+}
+```
+
+#### Vmare
+
+https://wiki.archlinux.org/index.php/VMware
