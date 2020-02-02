@@ -248,6 +248,6 @@ allprojects {
 }
 ```
 
-#### Vmare
+#### VMware
 
 https://wiki.archlinux.org/index.php/VMware
