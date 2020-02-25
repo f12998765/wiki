@@ -20,6 +20,13 @@ $env:SCOOP='C:\scoop'
 iwr -useb get.scoop.sh | iex
 ```
 
+指定软件安装目录
+
+```powershell
+$env:SCOOP_GLOBAL='c:\apps'
+[environment]::setEnvironmentVariable('SCOOP_GLOBAL',$env:SCOOP_GLOBAL,'Machine')
+scoop install -g <app>
+```
 
 
 添加 bucket
@@ -223,6 +230,8 @@ scoop install screentogif
 ### 独立安装
 
 - datagrip https://www.jetbrains.com/datagrip/
+- Another.Redis.Dsektop.Manager https://github.com/qishibo/AnotherRedisDesktopManager
+- Navicat  https://www.navicat.com.cn/products/navicat-premium
 
 ### 
 
