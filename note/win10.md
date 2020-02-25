@@ -15,7 +15,7 @@ wiki：https://github.com/lukesampson/scoop/wiki/Quick-Start
 安装到自定义目录
 
 ```powershell
-$env:SCOOP='C:\scoop'
+$env:SCOOP='d:\scoop'
 [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
 iwr -useb get.scoop.sh | iex
 ```
@@ -23,11 +23,16 @@ iwr -useb get.scoop.sh | iex
 指定软件安装目录
 
 ```powershell
-$env:SCOOP_GLOBAL='c:\apps'
+$env:SCOOP_GLOBAL='d:\apps'
 [environment]::setEnvironmentVariable('SCOOP_GLOBAL',$env:SCOOP_GLOBAL,'Machine')
 scoop install -g <app>
 ```
 
+安装依赖软件
+
+```powershell
+scoop install 7zip git
+```
 
 添加 bucket
 
@@ -38,10 +43,10 @@ scoop bucket add versions
 
 
 
-### 基本软件
+### 系统软件
 
 ```powershell
-scoop install 7zip git dismplusplus 
+scoop install dismplusplus 
 ```
 
 
@@ -210,7 +215,7 @@ allprojects {
 
 
 ```powershell
-scoop install idea vscode insomnia gitkraken
+scoop install idea vscode insomnia gitkraken mobaxterm
 ```
 
 
@@ -233,7 +238,6 @@ scoop install screentogif
 - Another.Redis.Dsektop.Manager https://github.com/qishibo/AnotherRedisDesktopManager
 - Navicat  https://www.navicat.com.cn/products/navicat-premium
 
-### 
 
 
 
