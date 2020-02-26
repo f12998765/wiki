@@ -215,26 +215,15 @@ allprojects {
 
 
 ```powershell
-scoop install idea vscode insomnia gitkraken mobaxterm
+scoop install idea  insomnia gitkraken mobaxterm screentogif
 ```
-
-
 
 - insomnia https://support.insomnia.rest/
 
 
-
-### 辅助软件
-
-```powershell
-scoop install screentogif
-```
-
-
-
 ### 独立安装
 
-- datagrip https://www.jetbrains.com/datagrip/
+- vscode https://code.visualstudio.com/  （scoop 安装使 wsl2 打开文件异常）
 - Another.Redis.Dsektop.Manager https://github.com/qishibo/AnotherRedisDesktopManager
 - Navicat  https://www.navicat.com.cn/products/navicat-premium
 
