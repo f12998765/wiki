@@ -75,10 +75,8 @@ scoop install sumatrapdf imageglass motrix
 - uninstall-tool https://www.crystalidea.com/uninstall-tool
 - 备份与同步 https://www.google.com/drive/download/
 - 火绒 https://www.huorong.cn/
-- PicGo https://github.com/Molunerfinn/PicGo
-  - ![](https://raw.githubusercontent.com/f12998765/image/image/hub/20200202222848.png)
-
-
+- notion https://www.notion.so/
+  - [Notion Enhancer](https://www.notion.so/Notion-Enhancer-147abdd0b5ed47c9b472520f9ee212a4)
 
 ### 绿色软件
 
